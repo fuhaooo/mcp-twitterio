@@ -1,6 +1,6 @@
 # Twitter API MCP服务
 
-这是一个基于Model Context Protocol (MCP)的Twitter API客户端，使用twitterapi.io的API服务来获取Twitter数据。该服务允许AI助手（如Claude）查询Twitter数据，包括用户信息、推文、趋势等。
+这是一个基于Model Context Protocol (MCP)的Twitter API客户端，使用[twitterapi.io](https://twitterapi.io/)的API服务来获取Twitter数据。该服务允许AI助手（如Claude）查询Twitter数据，包括用户信息、推文、趋势等。
 
 ## 功能
 
@@ -40,10 +40,23 @@
 ## 使用方法
 
 ### 使用uvx命令直接在Cherry Studio等终端中使用
-本项已经上传到pypi，可直接通过uvx使用
-mcp-twitterio
 
-需要从twitterapi.io官网获得TWITTER_API_KEY作为环境变量
+本项目已经上传到PyPI，可直接通过uvx在Cherry Studio中使用：
+```
+mcp-twitterio
+```
+
+需要从[twitterapi.io](https://twitterapi.io/)官网获得TWITTER_API_KEY作为环境变量。
+
+#### Cherry Studio使用示例
+
+在Cherry Studio中使用mcp-twitterio服务：
+
+![Cherry Studio使用示例1](examples/cherry-studio.png)
+
+查询Twitter用户信息示例：
+
+![Cherry Studio使用示例2](examples/cherry-studio1.png)
 
 ### 使用MCP CLI运行服务
 
