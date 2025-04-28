@@ -39,6 +39,12 @@
 
 ## 使用方法
 
+### 使用uvx命令直接在Cherry Studio等终端中使用
+本项已经上传到pypi，可直接通过uvx使用
+mcp-twitterio
+
+需要从twitterapi.io官网获得TWITTER_API_KEY作为环境变量
+
 ### 使用MCP CLI运行服务
 
 ```bash
